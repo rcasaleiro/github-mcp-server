@@ -1,0 +1,11 @@
+# GitHub MCP Server - Local Environment (git-ignored)
+# This file is sourced by .envrc and contains sensitive local configuration
+# It is NOT tracked by git
+
+# Set your GitHub Personal Access Token here
+# Token scopes needed: repo, read:org, read:user
+export GITHUB_PERSONAL_ACCESS_TOKEN=ghp_your_token_here
+
+# Optional: Other local environment variables
+# export DEBUG=1
+# export LOG_LEVEL=debug
