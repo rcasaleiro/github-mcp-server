@@ -22,8 +22,6 @@
 
           shellHook = ''
             echo "GitHub MCP Server - Go 1.24 environment loaded"
-            go version
-            golangci-lint version
           '';
         };
       }
